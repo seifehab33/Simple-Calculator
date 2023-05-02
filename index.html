@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="SCalc" id="SCalc">
+      <h1>Simple Calculator</h1>
+      <label for="num1">Enter first number:</label>
+      <input
+        type="text"
+        id="num1"
+        name="num1"
+        placeholder="Enter First Number....."
+      /><br /><br />
+
+      <label for="num2">Enter second number:</label>
+      <input
+        type="text"
+        id="num2"
+        name="num2"
+        placeholder="Enter Second Number...."
+      /><br /><br />
+      <div class="btns">
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="clearFields()">Clear</button><br /><br />
+      </div>
+
+      <input type="number" id="result" name="result" disabled />
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
